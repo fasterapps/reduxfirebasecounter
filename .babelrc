@@ -1,0 +1,10 @@
+{
+  "presets": ["babel-preset-expo"],
+  "env": {
+      "presets": ["react-native"],
+    "development": {
+      "plugins": ["transform-react-jsx-source"],
+      "plugins": ["transform-decorators-legacy"]
+    }
+  }
+}
